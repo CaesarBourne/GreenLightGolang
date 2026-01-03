@@ -1,0 +1,225 @@
+{
+    "invalidate": true,
+    "invalidateKeys": "all",
+    "timestamp": 1734794965,
+    "minAppVersion": "2.9.4",
+    "latestAppVersion": "2.9.4",
+    "maintenance": false,
+    "maintenanceTitle": "Maintenance Notice",
+    "maintenanceText": "App is currently under maintenance. Please try again later",
+    "maintenanceTitleFr": "Avis de Maintenance",
+    "maintenanceTextFr": "L'application est en maintenance. Nous vous informerons dès que tout sera rétabli.",
+    "maintenanceWhiteListNumbers": "",
+    "ghqr": true,
+    "referafriend": true,
+    "updateAlertCms": {
+        "requiredUpdateTitle": "New MoMo update",
+        "requiredUpdateMsg": "Please update to the latest version in order to continue using this application",
+        "requiredUpdateBtn": "Update",
+        "optionalUpdateTitle": "Update Available",
+        "optionalUpdateMsg": "Update your app to the latest version for additional features",
+        "optionalUpdateBtn1": "Update",
+        "optionalUpdateBtn2": "Cancel"
+    },
+    "updateAlertCmsFr": {
+        "requiredUpdateTitle": "Nouvelle mise à jour MoMo",
+        "requiredUpdateMsg": "Veuillez mettre à jour vers la dernière version afin de continuer à utiliser cette application",
+        "requiredUpdateBtn": "Mettre à jour",
+        "optionalUpdateTitle": "Mise à jour disponible",
+        "optionalUpdateMsg": "Mettez à jour votre application vers la dernière version pour des fonctionnalités supplémentaires",
+        "optionalUpdateBtn1": "Mettre à jour",
+        "optionalUpdateBtn2": "Annuler"
+    },
+    "banners": {
+        "GH": [
+            {
+                "id": "momo-no-charge",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/gh/v.2.9.x/no-charge.png",
+                "imageUrlFr": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/gh/v.2.9.x/no-charge.png",
+                "route": "",
+                "routeParamns": {}
+            },
+            {
+                "id": "gh-aoc-banner",
+                "is_aoc": true,
+                "imageUrl": "https://i.postimg.cc/GprNvMjx/73042f38-9c6a-4d61-995b-3745ade8c0cf.jpg",
+                "imageUrlFr": "https://i.postimg.cc/GprNvMjx/73042f38-9c6a-4d61-995b-3745ade8c0cf.jpg",
+                "route": "",
+                "routeParamns": {}
+            },
+            {
+                "id": "gh-momo-advance-banner",
+                "imageUrl": "https://i.postimg.cc/2yQJ7Sch/xtrabalance.jpg",
+                "imageUrlFr": "https://i.postimg.cc/2yQJ7Sch/xtrabalance.jpg",
+                "route": "loansandadvance",
+                "routeParamns": {}
+            },
+            {
+                "id": "gh-recommend-banner",
+                "imageUrl": "https://i.postimg.cc/Y9Gy2jSr/Recommend-Banner.png",
+                "imageUrlFr": "https://i.postimg.cc/Y9Gy2jSr/Recommend-Banner.png",
+                "route": "referafriend",
+                "routeParamns": {}
+            },
+            {
+                "id": "gh-thursday-banner",
+                "imageUrl": "https://i.postimg.cc/4d3MQ9z8/Y-ello-Thursday-My-Mo-Mo-85px-x-280px-03.png",
+                "imageUrlFr": "https://i.postimg.cc/4d3MQ9z8/Y-ello-Thursday-My-Mo-Mo-85px-x-280px-03.png",
+                "route": "",
+                "routeParamns": {}
+            },
+            {
+                "id": "gh-still-me-nsa-ka",
+                "imageUrl": "https://i.postimg.cc/L8CqLx1Q/still-me-nsa-ka.png",
+                "imageUrlFr": "https://i.postimg.cc/L8CqLx1Q/still-me-nsa-ka.png",
+                "route": "",
+                "routeParamns": {}
+            }
+        ],
+        "CDI": [
+            {
+                "id": "cdi-airtime-banner",
+                "imageUrl": "https://mmafd-uat-d8h8hxegf5a6hzbv.a03.azurefd.net/momoconsumer3pp-mobile/banners/Airtime-english.png",
+                "imageUrlFr": "https://mmafd-uat-d8h8hxegf5a6hzbv.a03.azurefd.net/momoconsumer3pp-mobile/banners/AIRTIME_NEW.png",
+                "routeParamns": {
+                    "activeTab": "BUY"
+                },
+                "route": "homescreen"
+            },
+            {
+                "id": "cdi-bill-payment-banner",
+                "imageUrl": "https://mmafd-uat-d8h8hxegf5a6hzbv.a03.azurefd.net/momoconsumer3pp-mobile/banners/Bill-Payment-english.png",
+                "imageUrlFr": "https://mmafd-uat-d8h8hxegf5a6hzbv.a03.azurefd.net/momoconsumer3pp-mobile/banners/BILL_PAYMENT.png",
+                "route": "utilities",
+                "routeParamns": {}
+            },
+            {
+                "id": "cdi-cash-out-banner",
+                "imageUrl": "https://mmafd-uat-d8h8hxegf5a6hzbv.a03.azurefd.net/momoconsumer3pp-mobile/banners/Banner-Cash-english.png",
+                "imageUrlFr": "https://mmafd-uat-d8h8hxegf5a6hzbv.a03.azurefd.net/momoconsumer3pp-mobile/banners/Cash_out_NEW.png",
+                "route": "cashout",
+                "routeParamns": {}
+            }
+        ],
+        "UG": [
+            {
+                "id": "otpandpin",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/ug/v2.2.x/donotshareotporpin.png",
+                "imageUrlFr": "",
+                "route": "",
+                "routeParamns": {}
+            },
+            {
+                "id": "utilities",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/ug/v2.2.x/utilities.jpg",
+                "imageUrlFr": "",
+                "route": "utilities",
+                "routeParamns": {}
+            },
+            {
+                "id": "exclusiveOffer",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/ug/v2.2.x/freedata.jpg",
+                "imageUrlFr": "",
+                "route": "ugtv",
+                "routeParamns": {}
+            },
+            {
+                "id": "ug-recommend-banner",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/ug/v2.2.x/recommend-200UGX.png",
+                "imageUrlFr": "",
+                "route": "referafriend",
+                "routeParamns": {}
+            },
+            {
+                "id": "ug-momo-app-market",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/ug/v2.2.x/MBM.jpg",
+                "imageUrlFr": "",
+                "route": "webscreen",
+                "routeParamns": {
+                    "header": "Market",
+                    "link": "https://market.momo.africa/"
+                }
+            },
+            {
+                "id": "ug-momo-advance",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/ug/v2.2.x/momoadvance.jpg",
+                "imageUrlFr": "",
+                "route": "loansandadvance",
+                "routeParamns": {}
+            },
+            {
+                "id": "ug-virtual-card",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/ug/v2.2.x/virtualCard.jpg",
+                "imageUrlFr": "",
+                "route": "virtualcard",
+                "routeParamns": {}
+            }
+        ],
+        "CM": [
+            {
+                "id": "cmr-virtual-card",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/cm/v2.2.x/237XAF-en.png",
+                "imageUrlFr": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/cm/v2.2.x/237XAF-fr.png",
+                "route": "virtualcard",
+                "routeParamns": {}
+            }
+        ],
+        "ZM": [
+            {
+                "id": "zm-recommend-banner",
+                "imageUrl": "https://mmafd-axf3hegdhxhwatbs.a03.azurefd.net/assert/zm/v.2.9.x/banner.png",
+                "imageUrlFr": "",
+                "route": "referafriend",
+                "routeParamns": {}
+            }
+        ]
+    },
+    "global": {
+        "invalidate": true,
+        "invalidateKeys": "all",
+        "maintenance": false,
+        "maintenanceTitle": "Maintenance Notice",
+        "maintenanceText": "App is currently under maintenance. Please try again later.",
+        "maintenanceWhiteListNumbers": [],
+        "platforms": {
+            "android": {
+                "minAppVersion": "2.9.4",
+                "latestAppVersion": "2.9.4"
+            },
+            "huawei": {
+                "minAppVersion": "2.9.4",
+                "latestAppVersion": "2.9.4"
+            },
+            "ios": {
+                "minAppVersion": "2.9.4",
+                "latestAppVersion": "2.9.4"
+            }
+        }
+    },
+    "opcos": {
+        "ZM": {},
+        "BJ": {
+            "referafriend": false
+        },
+        "GH": {
+            "aoc_enabled": true,
+            "timestamp": 1734794966
+        },
+        "CMR": {},
+        "UG": {
+            "maintenance": false,
+            "maintenanceTitle": "System Upgrade Notice",
+            "maintenanceText": "Momo Service will be unavailable for schedulled upgrade from Saturday 23th August, 11:00 PM to Sunday 24st August 2025, 7:00 AM. This Upgrade is to serve you better. Thank you for your patience."
+        },
+        "CDI": {
+            "maintenance": false,
+            "maintenanceTitle": "System Upgrade Notice",
+            "maintenanceTitleFr": "Avis de mise à niveau du système",
+            "maintenanceText": "Dear customer, the MoMo service is temporarily unavailable due to ongoing optimization work until 6 AM. MTN apologizes for any inconvenience.",
+            "maintenanceTextFr": "Cher client, le service MoMo est momentanement indisponible en raison de travaux d'optimisation en cours jusqu'a 6H. MTN s’excuse pour les desagrements",
+            "maintenanceWhiteListNumbers": [
+                "2250575686802"
+            ]
+        }
+    }
+}

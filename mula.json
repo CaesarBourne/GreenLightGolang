@@ -1,1 +1,1328 @@
-[{"BuyBundlesLanding":[{"CurvedBackHeader":[{"title":"Bundles"}],"MenuButtons":[{"id":"BundlesMyselfBtn","icon":"DashProfileIcon","label":"My number","route":"bundlesmyselfoptions","analytics":[{"onLoad":"","onPress":"BuyBundles_MyselfButton"}]},{"id":"BundlesOthersBtn","icon":"SimCard","label":"Other number","route":"bundlesothersoptions","analytics":[{"onPress":"BundlesOthersutton","onLoad":""}]}],"LinearTabScreens":[{"params":[{"headerRight":"See all","analytics":[{"onPress":"BuyBundles_RecentlyPurchasedSeeAllButton","onLoad":""}]}],"renderScene":"RecentlyPurchased","title":"Recently Purchased","analytics":[{"onPress":"BuyBundles_RecentlyPurchasedButton","onLoad":""}]},{"title":"Balances","renderScene":"Balances","params":[{"headerRightLink":"https##://mymtn.mtn.com.gh/cB5t/hi5wvc9t?page=detailed-balance","headerRight":"For more information, please visit the MTN app.","analytics":[{"onPress":"BuyBundles_BalancesMoreInfoButton","onLoad":""}]}],"analytics":[{"onPress":"BuyBundles_BalancesButton","onLoad":""}]}],"analytics":[{"onPress":"","onLoad":"BuyBundlesLandingScreen"}]}],"BuyBundlesMyself":[{"BuyBundleMySelfOptions":[{"Options":[{"id":"InternetBundles","variant":"shadow","title":"Internet Bundles","route":"bundlesmyselfinternet","analytics":[{"onPress":"BundlesMyselfInternetBtn"}]},{"id":"VideoBundles","title":"Video Bundles","variant":"shadow","route":"bundlesmyselfinternet","analytics":[{"onPress":"BundlesMyselfVideoBtn"}]},{"id":"BroadbandBundles","title":"Broadband Bundles","variant":"shadow","route":"broadbandbundles","analytics":[{"onPress":"BundlesMyselfBroadbandBtn"}]}],"BackHeader":[{"title":"Data Bundles"}],"analytics":[{"onLoad":"BundlesMySelfOptions"}]}],"BuyBundlesMyselfInternet":[{"Video_Bundles":[{"type":"158.05 MB","specialOffer":"","durationType":"","packType":"Data","bundleCode":"RACT_Video_GHC_1","validity":"","title":"158.05 MB Bundle","currency":"GHS","amount":"1","route":"bundlesmyselfconfirm","analytics":[{"onPress":"156_01 MB__BundleMyself"}]},{"type":"790.25 MB","specialOffer":"","durationType":"","packType":"Data","bundleCode":"RACT_Video_GHC_5","validity":"","title":"790.25 MB Bundle","currency":"GHS","amount":"5","route":"bundlesmyselfconfirm","analytics":[{"onPress":"780_03 MB__BundleMyself"}]},{"type":"1.54GB","specialOffer":"","durationType":"","packType":"Data","bundleCode":"RACT_Video_GHC_10","validity":"","title":"1.54GB Bundle","currency":"GHS","amount":"10","route":"bundlesmyselfconfirm","analytics":[{"onPress":"1_52GB__BundleMyself"}]}],"BackHeader":[{"title":"Internet bundles"}],"Bundles":[{"type":"1.06MB-217.34GB","specialOffer":"","isFlex":true,"durationType":"","packType":"Data","bundleCode":"Data_Flexi_Bundle","validity":"","title":"20.73 MB Bundle","currency":"GHS","amount":"0.03","max":"399","route":"FlexiAmount","analytics":[{"onPress":"Data_Flexi_Bundle__BundleMyself"}],"othernumbers":true},{"type":"20.73 MB","title":"20.73 MB Bundle","currency":"GHS","amount":"0.50","specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_0.5","route":"bundlesmyselfconfirm","analytics":[{"onPress":"20_46MB__BundleMyself"}]},{"type":"41.46 MB","title":"41.46 MB Bundle","currency":"GHS","amount":"1","specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_1","route":"bundlesmyselfconfirm","analytics":[{"onPress":"40_91MB__BundleMyself"}]},{"type":"406.89 MB","title":"406.89 MB Bundle","currency":"GHS","amount":"3","specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_3","route":"bundlesmyselfconfirm","analytics":[{"onPress":"401_63MB__BundleMyself"}]},{"type":"837.55 MB","title":"837.55 MB Bundle","currency":"GHS","amount":"10","specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_10","route":"bundlesmyselfconfirm","analytics":[{"onPress":"826_72MB__BundleMyself"}]},{"type":"108.21 GB","title":"108.21 GB Bundle","currency":"GHS","amount":"350","specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_350","route":"bundlesmyselfconfirm","analytics":[{"onPress":"106_81GB__BundleMyself"}]},{"type":"217.34 GB","title":"217.34 GB Bundle","currency":"GHS","amount":"399","specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_399","route":"bundlesmyselfconfirm","analytics":[{"onPress":"214_53GB__BundleMyself"}]}],"analytics":[{"onLoad":"BundlesMyself_Internet"}]}],"BuyBundlesMyselfBroadband":[{"BackHeader":[{"title":"Broadband bundles"}],"Bundles":[{"type":"1GB Data Bundle","currency":"GHS","amount":"8000","specialOffer":"","validity":"","durationType":"Data","packType":"1GB","route":"bundlesmyselfconfirm","analytics":[{"onPress":"1GB_BundleMyself"}]},{"type":"30 Minutes","currency":"GHS","amount":"4000","specialOffer":"","validity":"","durationType":"Voice","packType":"30MIN","route":"bundlesmyselfconfirm","analytics":[{"onPress":"30MIN_BundleMyself"}]},{"type":"50 MB Data Bundle","currency":"GHS","amount":"400","specialOffer":"true","validity":"","durationType":"Data","packType":"50GB","route":"bundlesmyselfconfirm","analytics":[{"onPress":"50GB_BundleMyself"}]},{"type":"300 Minutes","currency":"GHS","amount":"2000","specialOffer":"true","validity":"","durationType":"Voice","packType":"300MIN","route":"bundlesmyselfconfirm","analytics":[{"onPress":"300MIN_BundleMyself"}]},{"type":"300 MB Data Bundle","currency":"GHS","amount":"2000","specialOffer":"true","validity":"","durationType":"Data","packType":"30MB","route":"bundlesmyselfconfirm","analytics":[{"onPress":"30MB_BundleMyself"}]}],"analytics":[{"onLoad":"BundlesMyself_Broadband"}]}],"BuyBundlesMyselfInternetConfirm":[{"Buttons":[{"id":"buyBtn","onPress":"buyinternetbundles","variant":"primary","label":"BUY","icon":"","analytics":[{"onPress":"BundlesMyselfConfirmBuyBtn"}]},{"id":"EditBtn","onPress":"goBack","variant":"secondary","label":"EDIT","icon":"","analytics":[{"onPress":"BundlesMyselfConfirmEditBtn"}]}],"BackHeader":[{"title":"Internet bundles"}],"analytics":[{"onLoad":"BundlesMyselfConfirmScreen"}],"ProcessAmountConfig":[{"min":0,"max":0.02,"divisor":null,"label":"Invalid Amount"},{"min":0.03,"max":1.99,"divisor":0.0241221},{"min":2,"max":2.99,"divisor":0.0201363},{"min":3,"max":3,"divisor":0.007373},{"min":3.01,"max":5,"divisor":0.0095963},{"min":5.01,"max":9.99,"divisor":0.0140599},{"min":10,"max":10,"divisor":0.0119396},{"min":10.01,"max":99.9,"divisor":0.0140599},{"min":100,"max":199.9,"divisor":0.0106515},{"min":200,"max":299.99,"divisor":0.0063262},{"min":300,"max":349.99,"divisor":0.0031586},{"min":350,"max":398.99,"divisor":0.0031586},{"min":399,"max":399,"divisor":0.0017928}]}],"BuyBundlesMyselfBroadbandConfirm":[{"BackHeader":[{"title":"Broadband bundles"}],"Buttons":[{"id":"buyBtn","onPress":"buybroadbandbundles","variant":"primary","label":"BUY","icon":"","analytics":[{"onPress":"BundlesMyselfConfirmBuyBtn"}]},{"id":"EditBtn","onPress":"goBack","variant":"secondary","label":"EDIT","icon":"","analytics":[{"onPress":"BundlesMyselfConfirmEditBtn"}]}],"analytics":[{"onLoad":"BundlesMyselfConfirmScreen"}]}],"BuyBundlesMyselfInternetSucessScreen":[{"Illustration":[{"name":"SuccessSVG"}],"Title":[{"label":"Transaction successful"}],"Description":[{"text":"Your bundle transaction of (currency) (amount) to (mobilenumber) was successful"}],"Buttons":[{"id":"DoneBtn","onPress":"Done","variant":"primary","label":"Done","icon":"","analytics":[{"onPress":"BundlesMyselfSuccessDoneBtn"}]}],"analytics":[{"onLoad":"BundlesMyselfSucessScreen"}]}],"BuyBundlesMyselfBroadbandSucessScreen":[{"Illustration":[{"name":"SuccessSVG"}],"Title":[{"label":"Transaction successful"}],"Description":[{"text":"Your bundle transaction of (currency) (amount) to (mobilenumber) was successful"}],"Buttons":[{"id":"DoneBtn","onPress":"Done","variant":"primary","label":"Done","icon":"","analytics":[{"onPress":"BundlesMyselfSuccessDoneBtn"}]}],"analytics":[{"onLoad":"BundlesMyselfSucessScreen"}]}]}],"BuyBundlesOthers":[{"BuyBundlesSuccessTitle":"Bundle purchased","BuyBundlesSuccessText":"You successfully purchased a __(data)__ bundle for __(mobileNumber)__.","BuyBundlesSuccessBtns":"Done-primary-Entry-DoneBtn-yes","BuyBundlesPendingTitle":"Processing payment","BuyBundlesPendingText":"Your transaction for bundle purchase is in progress. You will be notified once completed.","BuyBundlesPendingBtns":"Done-primary-Entry-DoneBtn-yes","BuyBundlesFailureTitle":"Unable to purchase bundles","BuyBundlesFailureText":"We couldn’t purchase __(data)__ of bundles for __(mobileNumber)__ due to a system issue. Please try again later.","BuyBundlesFailureBtns":"TRY AGAIIN-primary-Entry-TryAgainBtn-yes","BuyBundlesOthers":[{"TitleMessage":[{"titleMessage":""}],"Networks":"Mtn-MTN-mtn-MtnBtn-300594-mmipush-4@AirtelTigo2-AT-airteltigo-AritelTigoBtn-300592-mmipush-1@Telecel-Telecel-telecel-TelecelBtn-300594-mmipush-6","PhoneNumber":[{"id":"PhoneNumberInput","required":true,"mask":"9999999999","rightComponent":"PersonplusIcon","keyboardType":"phone-pad","maxLength":10,"nextFocus":"amount","name":"phoneNumber","label":"Enter number","analytics":[{"onFocus":"BundlesOthersPhoneNumberInput","onBlur":"BundlesOthersPhoneNumberInput"}]}],"formSchema":[{"phoneNumberMin":10,"phoneNumberMinErr":"Enter a valid mobile number","phoneNumberNonEmptyErr":"This field cannot be empty"}],"Button":[{"id":"SubmitBtn","onPress":"submitBuyBundlesOthers","variant":"primary","label":"next","analytics":[{"onPress":"BundlesOthersSubmitBtn"}]}],"analytics":[{"onLoad":"BundlesOthersScreen"}]}],"BuyBundleOthersOptions":[{"BackHeader":[{"title":"Data Bundles"}],"Options":[{"id":"InternetBundles","title":"Internet Bundles","variant":"shadow","route":"bundlesothersinternet","analytics":[{"onPress":"BundlesMyselfInternetBtn"}]},{"id":"VideoBundles","title":"Video Bundles","variant":"shadow","route":"bundlesothersinternet","analytics":[{"onPress":"BundlesMyselfVideoBtn"}]}],"analytics":[{"onLoad":"BundlesOthersOptions"}]}],"BuyBundlesOthersInternet":[{"BackHeader":[{"title":"Internet bundles"}],"Bundles":[{"type":"1.06MB-217.34GB","specialOffer":"","isFlex":true,"durationType":"","packType":"Data","bundleCode":"Data_Flexi_Bundle","validity":"","title":"20.73 MB Bundle","currency":"GHS","amount":"0.03","max":"399","route":"FlexiAmount","analytics":[{"onPress":"Data_Flexi_Bundle__BundleOthers"}],"othernumbers":true},{"type":"20.73 MB","title":"20.73 MB Bundle","currency":"GHS","amount":"0.50","specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_0.5","route":"bundlesothersconfirm","analytics":[{"onPress":"20_46MB__BundleOthers"}]},{"type":"41.46 MB","title":"41.46 MB Bundle","currency":"GHS","amount":"1","specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_1","route":"bundlesothersconfirm","analytics":[{"onPress":"40_91MB__BundleOthers"}]},{"type":"406.89 MB","title":"406.89 MB Bundle","currency":"GHS","amount":3,"specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_3","route":"bundlesothersconfirm","analytics":[{"onPress":"401_63MB__BundleOthers"}]},{"type":"837.55 MB","title":"837.55 MB Bundle","currency":"GHS","amount":"10","specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_10","route":"bundlesothersconfirm","analytics":[{"onPress":"826_72MB__BundleOthers"}]},{"type":"108.21 GB","title":"108.21 GB Bundle","currency":"GHS","amount":350,"specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_350","route":"bundlesothersconfirm","analytics":[{"onPress":"106_81GB__BundleOthers"}]},{"type":"217.34 GB","title":"217.34 GB Bundle","currency":"GHS","amount":399,"specialOffer":"","validity":"","durationType":"","packType":"Data","bundleCode":"RACT_Data_GHC_399_Others","route":"bundlesothersconfirm","analytics":[{"onPress":"214_53GB__BundleOthers"}]}],"Video_Bundles":[{"type":"158.05 MB","specialOffer":"","durationType":"","packType":"Data","bundleCode":"RACT_Video_GHC_1_Others","validity":"","title":"158.05 MB Bundle","currency":"GHS","amount":"1","route":"bundlesothersconfirm","analytics":[{"onPress":"156_01 MB__BundleMyself"}]},{"type":"790.25 MB","specialOffer":"","durationType":"","packType":"Data","bundleCode":"RACT_Video_GHC_5_Others","validity":"","title":"790.25 MB Bundle","currency":"GHS","amount":"5","route":"bundlesothersconfirm","analytics":[{"onPress":"780_03 MB__BundleMyself"}]},{"type":"1.54GB","specialOffer":"","durationType":"","packType":"Data","bundleCode":"RACT_Video_GHC_10_Others","validity":"","title":"1.54GB Bundle","currency":"GHS","amount":"10","route":"bundlesothersconfirm","analytics":[{"onPress":"1_52GB__BundleMyself"}]}],"analytics":[{"onLoad":"BundlesOthersInternetScreen"}]}],"BuyBundlesOthersBroadband":[{"BackHeader":[{"title":"Broadband bundles"}],"Bundles":[{"type":"1GB Data Bundle","currency":"GHS","amount":"8000","specialOffer":"","validity":"","durationType":"Data","packType":"1GB","route":"bundlesothersconfirm","analytics":[{"onPress":"1GB_BundleOthers"}]},{"type":"30 Minutes","currency":"GHS","amount":"4000","specialOffer":"","validity":"","durationType":"Voice","packType":"30MIN","route":"bundlesothersconfirm","analytics":[{"onPress":"30MIN_BundleOthers"}]},{"type":"50 MB Data Bundle","currency":"GHS","amount":"400","specialOffer":"true","validity":"","durationType":"Data","packType":"50GB","route":"bundlesothersconfirm","analytics":[{"onPress":"50GB_BundleOthers"}]},{"type":"300 Minutes","currency":"GHS","amount":"2000","specialOffer":"true","validity":"","durationType":"Voice","packType":"300MIN","route":"bundlesothersconfirm","analytics":[{"onPress":"300MIN_BundleOthers"}]},{"type":"300 MB Data Bundle","currency":"GHS","amount":"2000","specialOffer":"true","validity":"","durationType":"Data","packType":"30MB Bundle","route":"bundlesothersconfirm","analytics":[{"onPress":"30MB_BundleOthers"}]}],"analytics":[{"onLoad":"BundlesOthersBroadbandScreen"}]}],"BuyBundlesOthersInternetConfirm":[{"BackHeader":[{"title":"Confirm"}],"Buttons":[{"id":"buyBtn","onPress":"buyinternetbundles","variant":"primary","label":"BUY","icon":"","analytics":[{"onPress":"BundlesOthersConfirmBuyBtn"}]},{"id":"EditBtn","onPress":"goBack","variant":"secondary","label":"EDIT","icon":"","analytics":[{"onPress":"BundlesOthersConfirmEditBtn"}]}],"analytics":[{"onLoad":"BundlesOthersConfirmScreen"}]}],"BuyBundlesOthersBroadbandConfirm":[{"BackHeader":[{"title":"Broadband bundles"}],"Buttons":[{"id":"buyBtn","onPress":"buybroadbandbundles","variant":"primary","label":"BUY","icon":"","analytics":[{"onPress":"BundlesOthersConfirmBuyBtn"}]},{"id":"EditBtn","onPress":"goBack","variant":"secondary","label":"EDIT","icon":"","analytics":[{"onPress":"BundlesOthersConfirmEditBtn"}]}],"analytics":[{"onLoad":"BundlesOthersConfirmScreen"}]}],"BuyBundlesOthersInternetSucessScreen":[{"Illustration":[{"name":"SuccessSVG"}],"Title":[{"label":"Bundle purchased"}],"Description":[{"text":"Your bundle transaction of (currency) (amount) to (mobilenumber) was successful"},"You successfully purchased a 50 GB bundle for 0971234567."],"Buttons":[{"id":"DoneBtn","onPress":"Done","variant":"primary","label":"Done","icon":"","analytics":[{"onPress":"BundlesOthersSuccessDoneBtn"}]}],"analytics":[{"onLoad":"BundlesOthersSucessScreen"}]}],"BuyBundlesOthersBroadbandSucessScreen":[{"Illustration":[{"name":"SuccessSVG"}],"Title":[{"label":"Transaction successful"}],"Description":[{"text":"Your bundle transaction of (currency) (amount) to (mobilenumber) was successful"}],"Buttons":[{"id":"DoneBtn","onPress":"Done","variant":"primary","label":"Done","icon":"","analytics":[{"onPress":"BundlesMyselfSuccessDoneBtn"}]}],"analytics":[{"onLoad":"BundlesMyselfSucessScreen"}]}],"BuyBundlesOthersConfirm":[{"BackHeader":[{"title":"Bundles"}],"Buttons":[{"id":"buyBtn","onPress":"buy","variant":"primary","label":"BUY","icon":"","analytics":[{"onPress":"BundlesOthersConfirmationBuyBtn"}]},{"id":"EditBtn","onPress":"goBack","variant":"secondary","label":"EDIT","icon":"","analytics":[{"onPress":"BundlesOthersConfirmationEditBtn"}]},{"id":"buyAgainBtn","onPress":"buyAgain","variant":"primary","label":"BUY AGAIN","icon":"","analytics":[{"onPress":"BundlesOthersConfirmBuyAgainBtn"}]}],"analytics":[{"onLoad":"BundlesOthersConfirmScreen"}]}],"BuyBundlesOthersSucessStatusScreen":[{"Illustration":[{"name":"SuccessSVG"}],"Title":[{"label":"Transaction successful"}],"Description":[{"text":"Your bundles transaction of (currency) (amount) to (mobilenumber) was successful"}],"Buttons":[{"id":"DoneBtn","onPress":"Done","variant":"primary","label":"Done","icon":"","analytics":[{"onPress":"BundlesOthersSuccessDoneBtn"}]}],"analytics":[{"onLoad":"BundlesOthersSucessScreen"}]}],"NetworksNote":"Please note: If you buy bundle for networks other than MTN, the purchase cannot be reversed."}],"RecentlyPurchased":[{"filterTypes":[{"name":"All","analytics":[{"onPress":"BundlesAllButton","onLoad":""}]},{"name":"My number","analytics":[{"onPress":"BundlesMyNumberButton","onLoad":""}]},{"name":"Other number","analytics":[{"onPress":"BundlesOtherNumberButton","onLoad":""}]}],"BackHeader":[{"title":"Transactions"}],"analytics":[{"onPress":"","onLoad":"BundlesSeeAllScreen"}]}]}]
+[
+  {
+    "BuyBundlesLanding": [
+      {
+        "CurvedBackHeader": [
+          {
+            "title": "Bundles"
+          }
+        ],
+        "MenuButtons": [
+          {
+            "id": "BundlesMyselfBtn",
+            "icon": "DashProfileIcon",
+            "label": "My number",
+            "route": "bundlesmyselfoptions",
+            "analytics": [
+              {
+                "onLoad": "",
+                "onPress": "BuyBundles_MyselfButton"
+              }
+            ]
+          },
+          {
+            "id": "BundlesOthersBtn",
+            "icon": "SimCard",
+            "label": "Other number",
+            "route": "bundlesothersoptions",
+            "analytics": [
+              {
+                "onPress": "BundlesOthersutton",
+                "onLoad": ""
+              }
+            ]
+          }
+        ],
+        "LinearTabScreens": [
+          {
+            "params": [
+              {
+                "headerRight": "See all",
+                "analytics": [
+                  {
+                    "onPress": "BuyBundles_RecentlyPurchasedSeeAllButton",
+                    "onLoad": ""
+                  }
+                ]
+              }
+            ],
+            "renderScene": "RecentlyPurchased",
+            "title": "Recently Purchased",
+            "analytics": [
+              {
+                "onPress": "BuyBundles_RecentlyPurchasedButton",
+                "onLoad": ""
+              }
+            ]
+          },
+          {
+            "title": "Balances",
+            "renderScene": "Balances",
+            "params": [
+              {
+                "headerRightLink": "https##://mymtn.mtn.com.gh/cB5t/hi5wvc9t?page=detailed-balance",
+                "headerRight": "For more information, please visit the MTN app.",
+                "analytics": [
+                  {
+                    "onPress": "BuyBundles_BalancesMoreInfoButton",
+                    "onLoad": ""
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onPress": "BuyBundles_BalancesButton",
+                "onLoad": ""
+              }
+            ]
+          }
+        ],
+        "analytics": [
+          {
+            "onPress": "",
+            "onLoad": "BuyBundlesLandingScreen"
+          }
+        ]
+      }
+    ],
+    "BuyBundlesMyself": [
+      {
+        "BuyBundleMySelfOptions": [
+          {
+            "Options": [
+              {
+                "id": "InternetBundles",
+                "variant": "shadow",
+                "title": "Internet Bundles",
+                "route": "bundlesmyselfinternet",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfInternetBtn"
+                  }
+                ]
+              },
+              {
+                "id": "VideoBundles",
+                "title": "Video Bundles",
+                "variant": "shadow",
+                "route": "bundlesmyselfinternet",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfVideoBtn"
+                  }
+                ]
+              },
+              {
+                "id": "BroadbandBundles",
+                "title": "Broadband Bundles",
+                "variant": "shadow",
+                "route": "broadbandbundles",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfBroadbandBtn"
+                  }
+                ]
+              }
+            ],
+            "BackHeader": [
+              {
+                "title": "Data Bundles"
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesMySelfOptions"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesMyselfInternet": [
+          {
+            "Video_Bundles": [
+              {
+                "type": "158.05 MB",
+                "specialOffer": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Video_GHC_1",
+                "validity": "",
+                "title": "158.05 MB Bundle",
+                "currency": "GHS",
+                "amount": "1",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "156_01 MB__BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "790.25 MB",
+                "specialOffer": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Video_GHC_5",
+                "validity": "",
+                "title": "790.25 MB Bundle",
+                "currency": "GHS",
+                "amount": "5",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "780_03 MB__BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "1.54GB",
+                "specialOffer": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Video_GHC_10",
+                "validity": "",
+                "title": "1.54GB Bundle",
+                "currency": "GHS",
+                "amount": "10",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "1_52GB__BundleMyself"
+                  }
+                ]
+              }
+            ],
+            "BackHeader": [
+              {
+                "title": "Internet bundles"
+              }
+            ],
+            "Bundles": [
+              {
+                "type": "1.06MB-217.34GB",
+                "specialOffer": "",
+                "isFlex": true,
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "Data_Flexi_Bundle",
+                "validity": "",
+                "title": "20.73 MB Bundle",
+                "currency": "GHS",
+                "amount": "0.03",
+                "max": "399",
+                "route": "FlexiAmount",
+                "analytics": [
+                  {
+                    "onPress": "Data_Flexi_Bundle__BundleMyself"
+                  }
+                ],
+                "othernumbers": true
+              },
+              {
+                "type": "20.73 MB",
+                "title": "20.73 MB Bundle",
+                "currency": "GHS",
+                "amount": "0.50",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_0.5",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "20_46MB__BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "41.46 MB",
+                "title": "41.46 MB Bundle",
+                "currency": "GHS",
+                "amount": "1",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_1",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "40_91MB__BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "406.89 MB",
+                "title": "406.89 MB Bundle",
+                "currency": "GHS",
+                "amount": "3",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_3",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "401_63MB__BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "837.55 MB",
+                "title": "837.55 MB Bundle",
+                "currency": "GHS",
+                "amount": "10",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_10",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "826_72MB__BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "108.21 GB",
+                "title": "108.21 GB Bundle",
+                "currency": "GHS",
+                "amount": "350",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_350",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "106_81GB__BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "217.34 GB",
+                "title": "217.34 GB Bundle",
+                "currency": "GHS",
+                "amount": "399",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_399",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "214_53GB__BundleMyself"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesMyself_Internet"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesMyselfBroadband": [
+          {
+            "BackHeader": [
+              {
+                "title": "Broadband bundles"
+              }
+            ],
+            "Bundles": [
+              {
+                "type": "1GB Data Bundle",
+                "currency": "GHS",
+                "amount": "8000",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "Data",
+                "packType": "1GB",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "1GB_BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "30 Minutes",
+                "currency": "GHS",
+                "amount": "4000",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "Voice",
+                "packType": "30MIN",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "30MIN_BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "50 MB Data Bundle",
+                "currency": "GHS",
+                "amount": "400",
+                "specialOffer": "true",
+                "validity": "",
+                "durationType": "Data",
+                "packType": "50GB",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "50GB_BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "300 Minutes",
+                "currency": "GHS",
+                "amount": "2000",
+                "specialOffer": "true",
+                "validity": "",
+                "durationType": "Voice",
+                "packType": "300MIN",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "300MIN_BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "300 MB Data Bundle",
+                "currency": "GHS",
+                "amount": "2000",
+                "specialOffer": "true",
+                "validity": "",
+                "durationType": "Data",
+                "packType": "30MB",
+                "route": "bundlesmyselfconfirm",
+                "analytics": [
+                  {
+                    "onPress": "30MB_BundleMyself"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesMyself_Broadband"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesMyselfInternetConfirm": [
+          {
+            "Buttons": [
+              {
+                "id": "buyBtn",
+                "onPress": "buyinternetbundles",
+                "variant": "primary",
+                "label": "BUY",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfConfirmBuyBtn"
+                  }
+                ]
+              },
+              {
+                "id": "EditBtn",
+                "onPress": "goBack",
+                "variant": "secondary",
+                "label": "EDIT",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfConfirmEditBtn"
+                  }
+                ]
+              }
+            ],
+            "BackHeader": [
+              {
+                "title": "Internet bundles"
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesMyselfConfirmScreen"
+              }
+            ],
+            "ProcessAmountConfig": [
+              {
+                "min": 0,
+                "max": 0.02,
+                "divisor": null,
+                "label": "Invalid Amount"
+              },
+              {
+                "min": 0.03,
+                "max": 1.99,
+                "divisor": 0.0241221
+              },
+              {
+                "min": 2,
+                "max": 2.99,
+                "divisor": 0.0201363
+              },
+              {
+                "min": 3,
+                "max": 3,
+                "divisor": 0.007373
+              },
+              {
+                "min": 3.01,
+                "max": 5,
+                "divisor": 0.0095963
+              },
+              {
+                "min": 5.01,
+                "max": 9.99,
+                "divisor": 0.0140599
+              },
+              {
+                "min": 10,
+                "max": 10,
+                "divisor": 0.0119396
+              },
+              {
+                "min": 10.01,
+                "max": 99.9,
+                "divisor": 0.0140599
+              },
+              {
+                "min": 100,
+                "max": 199.9,
+                "divisor": 0.0106515
+              },
+              {
+                "min": 200,
+                "max": 299.99,
+                "divisor": 0.0063262
+              },
+              {
+                "min": 300,
+                "max": 349.99,
+                "divisor": 0.0031586
+              },
+              {
+                "min": 350,
+                "max": 398.99,
+                "divisor": 0.0031586
+              },
+              {
+                "min": 399,
+                "max": 399,
+                "divisor": 0.0017928
+              }
+            ]
+          }
+        ],
+        "BuyBundlesMyselfBroadbandConfirm": [
+          {
+            "BackHeader": [
+              {
+                "title": "Broadband bundles"
+              }
+            ],
+            "Buttons": [
+              {
+                "id": "buyBtn",
+                "onPress": "buybroadbandbundles",
+                "variant": "primary",
+                "label": "BUY",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfConfirmBuyBtn"
+                  }
+                ]
+              },
+              {
+                "id": "EditBtn",
+                "onPress": "goBack",
+                "variant": "secondary",
+                "label": "EDIT",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfConfirmEditBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesMyselfConfirmScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesMyselfInternetSucessScreen": [
+          {
+            "Illustration": [
+              {
+                "name": "SuccessSVG"
+              }
+            ],
+            "Title": [
+              {
+                "label": "Transaction successful"
+              }
+            ],
+            "Description": [
+              {
+                "text": "Your bundle transaction of (currency) (amount) to (mobilenumber) was successful"
+              }
+            ],
+            "Buttons": [
+              {
+                "id": "DoneBtn",
+                "onPress": "Done",
+                "variant": "primary",
+                "label": "Done",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfSuccessDoneBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesMyselfSucessScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesMyselfBroadbandSucessScreen": [
+          {
+            "Illustration": [
+              {
+                "name": "SuccessSVG"
+              }
+            ],
+            "Title": [
+              {
+                "label": "Transaction successful"
+              }
+            ],
+            "Description": [
+              {
+                "text": "Your bundle transaction of (currency) (amount) to (mobilenumber) was successful"
+              }
+            ],
+            "Buttons": [
+              {
+                "id": "DoneBtn",
+                "onPress": "Done",
+                "variant": "primary",
+                "label": "Done",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfSuccessDoneBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesMyselfSucessScreen"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "BuyBundlesOthers": [
+      {
+        "BuyBundlesSuccessTitle": "Bundle purchased",
+        "BuyBundlesSuccessText": "You successfully purchased a __(data)__ bundle for __(mobileNumber)__.",
+        "BuyBundlesSuccessBtns": "Done-primary-Entry-DoneBtn-yes",
+        "BuyBundlesPendingTitle": "Processing payment",
+        "BuyBundlesPendingText": "Your transaction for bundle purchase is in progress. You will be notified once completed.",
+        "BuyBundlesPendingBtns": "Done-primary-Entry-DoneBtn-yes",
+        "BuyBundlesFailureTitle": "Unable to purchase bundles",
+        "BuyBundlesFailureText": "We couldn’t purchase __(data)__ of bundles for __(mobileNumber)__ due to a system issue. Please try again later.",
+        "BuyBundlesFailureBtns": "TRY AGAIIN-primary-Entry-TryAgainBtn-yes",
+        "BuyBundlesOthers": [
+          {
+            "TitleMessage": [
+              {
+                "titleMessage": ""
+              }
+            ],
+            "Networks": "Mtn-MTN-mtn-MtnBtn-300594-mmipush-4@AirtelTigo2-AT-airteltigo-AritelTigoBtn-300592-mmipush-1@Telecel-Telecel-telecel-TelecelBtn-300594-mmipush-6",
+            "PhoneNumber": [
+              {
+                "id": "PhoneNumberInput",
+                "required": true,
+                "mask": "9999999999",
+                "rightComponent": "PersonplusIcon",
+                "keyboardType": "phone-pad",
+                "maxLength": 10,
+                "nextFocus": "amount",
+                "name": "phoneNumber",
+                "label": "Enter number",
+                "analytics": [
+                  {
+                    "onFocus": "BundlesOthersPhoneNumberInput",
+                    "onBlur": "BundlesOthersPhoneNumberInput"
+                  }
+                ]
+              }
+            ],
+            "formSchema": [
+              {
+                "phoneNumberMin": 10,
+                "phoneNumberMinErr": "Enter a valid mobile number",
+                "phoneNumberNonEmptyErr": "This field cannot be empty"
+              }
+            ],
+            "Button": [
+              {
+                "id": "SubmitBtn",
+                "onPress": "submitBuyBundlesOthers",
+                "variant": "primary",
+                "label": "next",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersSubmitBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesOthersScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundleOthersOptions": [
+          {
+            "BackHeader": [
+              {
+                "title": "Data Bundles"
+              }
+            ],
+            "Options": [
+              {
+                "id": "InternetBundles",
+                "title": "Internet Bundles",
+                "variant": "shadow",
+                "route": "bundlesothersinternet",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfInternetBtn"
+                  }
+                ]
+              },
+              {
+                "id": "VideoBundles",
+                "title": "Video Bundles",
+                "variant": "shadow",
+                "route": "bundlesothersinternet",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfVideoBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesOthersOptions"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesOthersInternet": [
+          {
+            "BackHeader": [
+              {
+                "title": "Internet bundles"
+              }
+            ],
+            "Bundles": [
+              {
+                "type": "1.06MB-217.34GB",
+                "specialOffer": "",
+                "isFlex": true,
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "Data_Flexi_Bundle",
+                "validity": "",
+                "title": "20.73 MB Bundle",
+                "currency": "GHS",
+                "amount": "0.03",
+                "max": "399",
+                "route": "FlexiAmount",
+                "analytics": [
+                  {
+                    "onPress": "Data_Flexi_Bundle__BundleOthers"
+                  }
+                ],
+                "othernumbers": true
+              },
+              {
+                "type": "20.73 MB",
+                "title": "20.73 MB Bundle",
+                "currency": "GHS",
+                "amount": "0.50",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_0.5",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "20_46MB__BundleOthers"
+                  }
+                ]
+              },
+              {
+                "type": "41.46 MB",
+                "title": "41.46 MB Bundle",
+                "currency": "GHS",
+                "amount": "1",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_1",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "40_91MB__BundleOthers"
+                  }
+                ]
+              },
+              {
+                "type": "406.89 MB",
+                "title": "406.89 MB Bundle",
+                "currency": "GHS",
+                "amount": 3,
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_3",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "401_63MB__BundleOthers"
+                  }
+                ]
+              },
+              {
+                "type": "837.55 MB",
+                "title": "837.55 MB Bundle",
+                "currency": "GHS",
+                "amount": "10",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_10",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "826_72MB__BundleOthers"
+                  }
+                ]
+              },
+              {
+                "type": "108.21 GB",
+                "title": "108.21 GB Bundle",
+                "currency": "GHS",
+                "amount": 350,
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_350",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "106_81GB__BundleOthers"
+                  }
+                ]
+              },
+              {
+                "type": "217.34 GB",
+                "title": "217.34 GB Bundle",
+                "currency": "GHS",
+                "amount": 399,
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Data_GHC_399_Others",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "214_53GB__BundleOthers"
+                  }
+                ]
+              }
+            ],
+            "Video_Bundles": [
+              {
+                "type": "158.05 MB",
+                "specialOffer": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Video_GHC_1_Others",
+                "validity": "",
+                "title": "158.05 MB Bundle",
+                "currency": "GHS",
+                "amount": "1",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "156_01 MB__BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "790.25 MB",
+                "specialOffer": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Video_GHC_5_Others",
+                "validity": "",
+                "title": "790.25 MB Bundle",
+                "currency": "GHS",
+                "amount": "5",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "780_03 MB__BundleMyself"
+                  }
+                ]
+              },
+              {
+                "type": "1.54GB",
+                "specialOffer": "",
+                "durationType": "",
+                "packType": "Data",
+                "bundleCode": "RACT_Video_GHC_10_Others",
+                "validity": "",
+                "title": "1.54GB Bundle",
+                "currency": "GHS",
+                "amount": "10",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "1_52GB__BundleMyself"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesOthersInternetScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesOthersBroadband": [
+          {
+            "BackHeader": [
+              {
+                "title": "Broadband bundles"
+              }
+            ],
+            "Bundles": [
+              {
+                "type": "1GB Data Bundle",
+                "currency": "GHS",
+                "amount": "8000",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "Data",
+                "packType": "1GB",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "1GB_BundleOthers"
+                  }
+                ]
+              },
+              {
+                "type": "30 Minutes",
+                "currency": "GHS",
+                "amount": "4000",
+                "specialOffer": "",
+                "validity": "",
+                "durationType": "Voice",
+                "packType": "30MIN",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "30MIN_BundleOthers"
+                  }
+                ]
+              },
+              {
+                "type": "50 MB Data Bundle",
+                "currency": "GHS",
+                "amount": "400",
+                "specialOffer": "true",
+                "validity": "",
+                "durationType": "Data",
+                "packType": "50GB",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "50GB_BundleOthers"
+                  }
+                ]
+              },
+              {
+                "type": "300 Minutes",
+                "currency": "GHS",
+                "amount": "2000",
+                "specialOffer": "true",
+                "validity": "",
+                "durationType": "Voice",
+                "packType": "300MIN",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "300MIN_BundleOthers"
+                  }
+                ]
+              },
+              {
+                "type": "300 MB Data Bundle",
+                "currency": "GHS",
+                "amount": "2000",
+                "specialOffer": "true",
+                "validity": "",
+                "durationType": "Data",
+                "packType": "30MB Bundle",
+                "route": "bundlesothersconfirm",
+                "analytics": [
+                  {
+                    "onPress": "30MB_BundleOthers"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesOthersBroadbandScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesOthersInternetConfirm": [
+          {
+            "BackHeader": [
+              {
+                "title": "Confirm"
+              }
+            ],
+            "Buttons": [
+              {
+                "id": "buyBtn",
+                "onPress": "buyinternetbundles",
+                "variant": "primary",
+                "label": "BUY",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersConfirmBuyBtn"
+                  }
+                ]
+              },
+              {
+                "id": "EditBtn",
+                "onPress": "goBack",
+                "variant": "secondary",
+                "label": "EDIT",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersConfirmEditBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesOthersConfirmScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesOthersBroadbandConfirm": [
+          {
+            "BackHeader": [
+              {
+                "title": "Broadband bundles"
+              }
+            ],
+            "Buttons": [
+              {
+                "id": "buyBtn",
+                "onPress": "buybroadbandbundles",
+                "variant": "primary",
+                "label": "BUY",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersConfirmBuyBtn"
+                  }
+                ]
+              },
+              {
+                "id": "EditBtn",
+                "onPress": "goBack",
+                "variant": "secondary",
+                "label": "EDIT",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersConfirmEditBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesOthersConfirmScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesOthersInternetSucessScreen": [
+          {
+            "Illustration": [
+              {
+                "name": "SuccessSVG"
+              }
+            ],
+            "Title": [
+              {
+                "label": "Bundle purchased"
+              }
+            ],
+            "Description": [
+              {
+                "text": "Your bundle transaction of (currency) (amount) to (mobilenumber) was successful"
+              },
+              "You successfully purchased a 50 GB bundle for 0971234567."
+            ],
+            "Buttons": [
+              {
+                "id": "DoneBtn",
+                "onPress": "Done",
+                "variant": "primary",
+                "label": "Done",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersSuccessDoneBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesOthersSucessScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesOthersBroadbandSucessScreen": [
+          {
+            "Illustration": [
+              {
+                "name": "SuccessSVG"
+              }
+            ],
+            "Title": [
+              {
+                "label": "Transaction successful"
+              }
+            ],
+            "Description": [
+              {
+                "text": "Your bundle transaction of (currency) (amount) to (mobilenumber) was successful"
+              }
+            ],
+            "Buttons": [
+              {
+                "id": "DoneBtn",
+                "onPress": "Done",
+                "variant": "primary",
+                "label": "Done",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesMyselfSuccessDoneBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesMyselfSucessScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesOthersConfirm": [
+          {
+            "BackHeader": [
+              {
+                "title": "Bundles"
+              }
+            ],
+            "Buttons": [
+              {
+                "id": "buyBtn",
+                "onPress": "buy",
+                "variant": "primary",
+                "label": "BUY",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersConfirmationBuyBtn"
+                  }
+                ]
+              },
+              {
+                "id": "EditBtn",
+                "onPress": "goBack",
+                "variant": "secondary",
+                "label": "EDIT",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersConfirmationEditBtn"
+                  }
+                ]
+              },
+              {
+                "id": "buyAgainBtn",
+                "onPress": "buyAgain",
+                "variant": "primary",
+                "label": "BUY AGAIN",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersConfirmBuyAgainBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesOthersConfirmScreen"
+              }
+            ]
+          }
+        ],
+        "BuyBundlesOthersSucessStatusScreen": [
+          {
+            "Illustration": [
+              {
+                "name": "SuccessSVG"
+              }
+            ],
+            "Title": [
+              {
+                "label": "Transaction successful"
+              }
+            ],
+            "Description": [
+              {
+                "text": "Your bundles transaction of (currency) (amount) to (mobilenumber) was successful"
+              }
+            ],
+            "Buttons": [
+              {
+                "id": "DoneBtn",
+                "onPress": "Done",
+                "variant": "primary",
+                "label": "Done",
+                "icon": "",
+                "analytics": [
+                  {
+                    "onPress": "BundlesOthersSuccessDoneBtn"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "onLoad": "BundlesOthersSucessScreen"
+              }
+            ]
+          }
+        ],
+        "NetworksNote": "Please note: If you buy bundle for networks other than MTN, the purchase cannot be reversed."
+      }
+    ],
+    "RecentlyPurchased": [
+      {
+        "filterTypes": [
+          {
+            "name": "All",
+            "analytics": [
+              {
+                "onPress": "BundlesAllButton",
+                "onLoad": ""
+              }
+            ]
+          },
+          {
+            "name": "My number",
+            "analytics": [
+              {
+                "onPress": "BundlesMyNumberButton",
+                "onLoad": ""
+              }
+            ]
+          },
+          {
+            "name": "Other number",
+            "analytics": [
+              {
+                "onPress": "BundlesOtherNumberButton",
+                "onLoad": ""
+              }
+            ]
+          }
+        ],
+        "BackHeader": [
+          {
+            "title": "Transactions"
+          }
+        ],
+        "analytics": [
+          {
+            "onPress": "",
+            "onLoad": "BundlesSeeAllScreen"
+          }
+        ]
+      }
+    ]
+  }
+]

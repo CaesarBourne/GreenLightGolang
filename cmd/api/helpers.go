@@ -1,40 +1,13 @@
-package main
+sequenceDiagram
+    participant NextGenApp
+    participant AuthBackend
+    participant PWAWebView
+    participant PWABackend
 
-import (
-	"encoding/json"
-	"errors"
-	"net/http"
-	"strconv"
-
-	"github.com/julienschmidt/httprouter"
-)
-
-func (app *application) readIDParams(r *http.Request) (int64, error) {
-	params := httprouter.ParamsFromContext(r.Context())
-
-	id, err := strconv.ParseInt(params.ByName("id"), 10, 64)
-
-	if err != nil || id < 1 {
-		return 0, errors.New("invalid id parameter")
-	}
-	return id, nil
-
-}
-func (app *application) writeJSON(w http.ResponseWriter, status int, data any, headers http.Header) error {
-	js, err := json.MarshalIndent(data, "", "\t")
-	if err != nil {
-		return err
-	}
-	js = append(js, '\n')
-
-	for key, value := range headers {
-		w.Header()[key] = value
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-
-	w.WriteHeader(status)
-	w.Write(js)
-
-	return nil
-}
+    NextGenApp->>Auth Backend: POST /api/pwa/auth/token<br/>{ msisdn, language, deviceId }
+    Auth Backend->>NextGenApp: { accessToken JWT, sessionId UUID, expiresIn }
+    NextGenApp->>PWAWebView: Load PWA with accessToken<br/>stored securely, not in URL if possible
+    PWAWebView->>PWABackend: GET /api/session<br/>Authorization: Bearer <accessToken>
+    PWABackend->>PWAWebView: Validate JWT<br/>Create session context<br/>Return session data
+    PWAWebView->>NextGenApp: postMessage via JS Bridge<br/>type: "SESSION_INITIALIZED"<br/>sessionId: "<uuid>"
+    Note over NextGenApp,PWABackend: Normal authenticated API calls continue<br/>Authorization: Bearer <accessToken>
